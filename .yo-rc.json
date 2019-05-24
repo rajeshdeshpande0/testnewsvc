@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "pom.infy.testnewsvc",
+    "packageFolder": "pom/infy/testnewsvc",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "testnewsvc",
+    "applicationType": "microservice",
+    "buildTool": "maven",
+    "serverPort": "8080",
+    "skipUserManagement": true,
+    "jhipsterVersion": "5.8.2",
+    "clientPackageManager": "npm",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "MzNmMTBmZGFmMjZkMmJlNzgwNDczZmNhZWQwNmM2MjZkNTcwNjFkMjY0Y2RmYThjNjBiOGJmZDk5MDBjOGE3NGYwMTY4YTZlYTc4ODFhMTcxYzUwZGU1OGI5YTdkZDg5ODg0YTQ3YTRjYzA3MDE5YWIzY2M0ZTNjNDIwNDdhNTk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Customer"
+  ]
+}
